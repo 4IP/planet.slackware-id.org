@@ -1,0 +1,11 @@
+INFO:planet.runner:Socket timeout set to 20 seconds
+INFO:planet.runner:Building work queue
+INFO:planet.runner:Feed https://slackblogs.blogspot.com/feeds/posts/default#slackware unchanged
+INFO:planet.runner:Feed https://tuxnoob.com/slackware.xml unchanged @ https://www.tuxnoob.com/slackware.xml
+INFO:planet.runner:Loading cached data
+DEBUG:planet.runner:Processing template /masyia/planet-slackware/themes/common/atom.xml.xslt using xslt
+DEBUG:planet.runner:Processing template /masyia/planet-slackware/themes/common/foafroll.xml.xslt using xslt
+DEBUG:planet.runner:Processing template /masyia/planet-slackware/themes/classic_fancy/index.html.tmpl using tmpl
+DEBUG:planet.runner:Processing template /masyia/planet-slackware/themes/common/opml.xml.xslt using xslt
+DEBUG:planet.runner:Processing template /masyia/planet-slackware/themes/common/rss10.xml.tmpl using tmpl
+DEBUG:planet.runner:Processing template /masyia/planet-slackware/themes/common/rss20.xml.tmpl using tmpl
