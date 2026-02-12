@@ -13,26 +13,18 @@ permissions:
 
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '2.7'
-
-      - name: Install Dependencies
-        run: |
-          pip install -r requirements.txt
-
-      - name: Generate Static Files
+      - name: Generate Static Files (via Docker Python 2.7)
         run: |
           mkdir -p output
-          python planet.py config.ini
+          docker run --rm -v $PWD:/app -w /app python:2.7-slim /bin/bash -c "pip install feedparser beautifulsoup4 html5lib && python planet.py config.ini"
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           publish_dir: ./output
+	  force_orphan: true
