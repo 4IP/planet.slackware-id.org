@@ -1,0 +1,24 @@
+<?xml version="1.0" ?><entry xmlns="http://www.w3.org/2005/Atom" xmlns:planet="http://planet.intertwingly.net/"><id>https://www.tuxnoob.com/posts/kde-4-and-5-on-slackware-current-has/</id><link href="https://www.tuxnoob.com/posts/kde-4-and-5-on-slackware-current-has/" rel="alternate" type="text/html"/><title>KDE 4 and 5 on Slackware Current has updated</title><summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>earlier version of kde 4.14.0 and kde 5.0.2 and now has release new kde version to 4.14.1 and kde 5.0.2 to 5.2.0, by source nothing has changed but little change kde-workspace, kde-activities etc.<br/>
+Where to find Slackware packages for KDE ?</p>
+
+<p>Download locations are listed below.</p>
+
+<p>You will find the KDE 4.14.1 sources in ./source/4.14.1/ and packages in /current/4.14.1/ subdirectories, whereas KDE 5 (Frameworks 5 and Plasma 5) sources can be downloaded from ./source/5/ and packages from /current/5/ .</p>
+
+<p>Note that I have symlinks in place (useful for users of a package manager and running slackware-current) so that ./current/latest/ will always point to the latest stable KDE release, and ./current/testing/ will always point to the most recent testing release (currently that’s Frameworks 5 and Plasma 5).</p>
+
+<p>Perhaps you noticed the directory name for KDE5 is “5″ and not “5.0.2″ or “5.2.0″. I decided to treat KDE5 as a “rolling release” and in future will probably update parts of it. For instance, when a new Frameworks 5 is released, I will only update the sources in ./source/5/kde/src/frameworks/ and the packages in ./current/5/*/kde/frameworks/ . The toplevel directory name will stay at “5″.</p>
+
+<p>Using a mirror is preferred because you get more bandwidth from a mirror and it’s friendlier to the owners of the master server!</p>
+
+<p><a href="https://alien.slackbook.org/ktown/">https://alien.slackbook.org/ktown/</a> (the master repository), rsync URI: rsync://alien.slackbook.org/alien/ktown/<br/>
+<a href="https://taper.alienbase.nl/mirrors/alien-kde/">https://taper.alienbase.nl/mirrors/alien-kde/</a> (my fast US mirror), rsync URI: rsync://taper.alienbase.nl/mirrors/alien-kde/<br/>
+<a href="https://repo.ukdw.ac.id/alien-kde/">https://repo.ukdw.ac.id/alien-kde/</a> (willysr’s Indonesian mirror), rsync URI: rsync://repo.ukdw.ac.id/alien-kde/<br/>
+<a href="https://slackware.org.uk/people/alien-kde/">https://slackware.org.uk/people/alien-kde/</a> (fast UK based mirror, run by Darren Austin), rsync URI: rsync://slackware.org.uk/people/alien-kde/<br/>
+dont’t forget read file <a href="https://taper.alienbase.nl/mirrors/alien-kde/current/testing/README">README</a> for kde 5 and <a href="https://alien.slackbook.org/ktown/current/4.14.1/README">README</a> for kde 4.</p>
+
+<p>thanks :)</p>
+
+<p><em>thanks to:</em><br/>
+<a href="https://slackblogs.blogspot.com/">Willy Sudiarto Rahardjo</a><br/>
+<a href="https://alien.slackbook.org/blog/">Eric Hameleers</a></p></div></summary><updated planet:format="September 21, 2014 02:01 PM">2014-09-21T14:01:00Z</updated><category term="Slackware"/><category term="KDE"/><category term="Linux"/><source><id>https://www.tuxnoob.com/</id><author><name>Arief JR [Tuxnoob]</name></author><link href="https://www.tuxnoob.com/" rel="alternate" type="text/html"/><link href="https://www.tuxnoob.com/slackware.xml" rel="self" type="application/rss+xml"/><subtitle>A blog tutorial, devops tutorial, linux tutorial, shell script, and more tutorial on IT.</subtitle><title>Tuxnoob</title><updated planet:format="January 27, 2026 01:26 PM">2026-01-27T13:26:35Z</updated><planet:format>rss20</planet:format><planet:http_etag>W/&quot;6978bd3a-113e9&quot;</planet:http_etag><planet:faceheight>108</planet:faceheight><planet:http_last_modified>Tue, 27 Jan 2026 13:27:22 GMT</planet:http_last_modified><planet:bozo>false</planet:bozo><planet:future_dates>ignore_date</planet:future_dates><planet:facewidth>100</planet:facewidth><planet:css-id>arief-jr-tuxnoob</planet:css-id><planet:face>gatotkaca.png</planet:face><planet:items_per_page>60</planet:items_per_page><planet:name>Arief JR [Tuxnoob]</planet:name><planet:http_location>https://www.tuxnoob.com/slackware.xml</planet:http_location><planet:http_status>301</planet:http_status></source></entry>
