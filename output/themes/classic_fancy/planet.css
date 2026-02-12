@@ -1,7 +1,7 @@
 body {
 	border-right: 1px solid black;
 	margin-right: 200px;
-
+	background-image: url("/images/background.jpg");
 	padding-left: 20px;
 	padding-right: 20px;
 }
@@ -113,15 +113,15 @@ img.face {
 }
 
 .sidebar ul li a {
-        text-decoration: none;
+	text-decoration: none;
 }
 
 .sidebar ul li a:hover {
-        text-decoration: underline;
+	text-decoration: underline;
 }
 
 .sidebar ul li a img {
-        border: 0;
+	border: 0;
 }
 
 .sidebar p {
@@ -133,12 +133,12 @@ img.face {
 }
 
 .sidebar .message {
-    cursor: help;
-    border-bottom: 1px dashed red;
+	cursor: help;
+	border-bottom: 1px dashed red;
 }
 
 .sidebar a.message:hover {
-    cursor: help;
+	cursor: help;
 	background-color: #ff0000;
 	color: #ffffff !important;
 	text-decoration: none !important;
