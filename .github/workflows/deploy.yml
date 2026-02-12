@@ -27,4 +27,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           publish_dir: ./output
-	  force_orphan: true
+          force_orphan: true
