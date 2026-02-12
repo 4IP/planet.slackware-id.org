@@ -1,7 +1,7 @@
 body {
 	border-right: 1px solid black;
 	margin-right: 200px;
-	background-image: url("images/background.jpg");
+	background-image: url("/images/background.jpg");
 	padding-left: 20px;
 	padding-right: 20px;
 }
